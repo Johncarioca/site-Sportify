@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #2941ab;
+    background-image: url(/src/assets/images/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 15%;
+}
+.container-main {
+    width: 100vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+h1 {
+    font-family: Spotify;
+    font-size: 120px;
+    color: #1ED768;
+}
+.text-main {
+    font-family: Spotify2;
+    color: #1ED768;
+    font-size: 20px;
+}
+button {
+    background-color: #1ED768;
+    color: #2941ab;
+    padding: 15px 27px;
+    border: transparent;
+    border-radius: 500px;
+    font-family: Spotify2;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-family: Spotify2;  
+    margin: 0 -100px; 
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.link {
+    margin: 30px 20px;
+}
+.link:hover {
+    margin: 30p;
+    color: #1ED768;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 120vh;
+}
+.logo-footer {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.links-footer {
+    display: flex;
+    padding: 10px;
+}
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+    margin: 10px 20px;
+}
+.p-footer {
+    font-family: Spotify2;
+    color: #919496;
+    font-size: 12px;
+}
+.a-footer {
+font-family: Spotify3;
+color: #ffff;
+}
+.redes {
+    display: flex;
+    background-color: #000000;
+    margin-top: 20px;
+    height: fit-content;
+    
+}
+.svg-redes {
+    width: 40px;
+    color: white;
+    margin: 10px;
+}
+.footer-footer {
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+}
+.icon {
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 500px;
+}
+.info-brlogo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+}
+.info-txt {
+display: flex;
+color: #919496;
+font-family: Spotify3;
+font-size: 12px;
+align-items: center;
+width: 100vh;
+margin-left: 90px;
+}
+.p-info {
+    margin: 0 10px;
+    width: fit-content;
+    padding: 10px 0;
+}
+.info {
+display: flex;
+justify-content: center;
+}
+.info-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 80vh;
+    align-items: center;
+}
+.infoimg {
+    padding: 10px 0;
+    margin-right: 7px;
+}
